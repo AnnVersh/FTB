@@ -1,5 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+.pytest_cache
 *.py[cod]
 *$py.class
 
@@ -17,7 +18,7 @@ env/
 .vscode/
 
 # Pytest cache files
-.cache/
+*cache/
 
 # Test logs and results
 *.log
